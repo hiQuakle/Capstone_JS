@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./SASS/base/reset";
+//fs
+@for $i from 1 through 100 {
+  .fs-#{$i} {
+    font-size: ($i) px;
+  }
+}

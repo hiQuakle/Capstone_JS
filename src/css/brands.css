@@ -1,0 +1,9 @@
+@charset "UTF-8";
+.brandsLogo ul {
+  display: flex;
+  flex-direction: row; /* Đặt các phần tử con nằm ngang */
+}
+.brandsLogo ul li .img_brands {
+  display: block;
+  width: 40px;
+}/*# sourceMappingURL=brands.css.map */

@@ -1,0 +1,42 @@
+.banner {
+  margin-bottom: 100px;
+}
+.banner .banner_content .img_banner {
+  margin-bottom: 40px;
+}
+.banner .banner_content .img_banner img {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.banner .banner_content .newFeature {
+  color: #ffffff;
+  text-align: center;
+}
+.banner .banner_content .newFeature .title1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111111;
+}
+.banner .banner_content .newFeature .mainTitleBanner {
+  font-size: 40px;
+  font-weight: bold;
+  color: #111111;
+}
+.banner .banner_content .newFeature .title2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #111111;
+  margin-bottom: 10px;
+}
+.banner .banner_content .newFeature .link_shop_banner button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  background-color: #111111;
+  color: #ffffff;
+}
+.banner .banner_content .newFeature .link_shop_banner button:hover {
+  background-color: rgb(67, 66, 66);
+}/*# sourceMappingURL=banner.css.map */

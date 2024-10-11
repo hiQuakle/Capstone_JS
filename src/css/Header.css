@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.my-container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #ffffff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-bottom: 20px;
+}
+.header .header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .header_content .logo_shop {
+  width: 20%;
+  padding: 30px;
+}
+.header .header_content .logo_shop img {
+  color: #111111;
+  width: 200px;
+  height: auto;
+}
+.header .header_content nav {
+  width: 60%;
+}
+.header .header_content nav ul {
+  display: flex;
+  justify-content: flex-start;
+}
+.header .header_content nav ul li {
+  margin: 20px;
+}
+.header .header_content nav ul li a {
+  font-size: 16px;
+  font-weight: 550;
+  color: #111111;
+  transition: all 0.5s;
+  position: relative;
+  display: inline-block;
+}
+.header .header_content nav ul li a::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  background-color: #111111;
+  transition: all 0.5s;
+}
+.header .header_content nav ul li.active a {
+  color: #111111;
+}
+.header .header_content nav ul li.active a::before {
+  width: 100%;
+}
+.header .header_content nav ul li:hover a {
+  color: #111111;
+}
+.header .header_content nav ul li:hover a::before {
+  width: 100%;
+  left: 0;
+}
+.header .header_content .input_header {
+  width: 20%;
+}
+.header .header_content .input_header .input_container button {
+  padding: 10px 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: #ffffff;
+  z-index: 1;
+  position: absolute;
+}
+.header .header_content .input_header .input_container button:hover {
+  background-color: rgb(178, 174, 174);
+}
+.header .header_content .input_header .input_container input {
+  position: relative;
+  z-index: 0;
+  background-color: #eeecec;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  width: 150px;
+}
+.header .header_content .input_header .input_container input:hover {
+  border: none;
+  background-color: rgba(200, 197, 197, 0.8980392157);
+}
+.header .header_content .input_header .input_container input:focus {
+  border: 1px solid white;
+}
+.header .header_content .input_header .input_container input::-moz-placeholder {
+  text-align: end;
+  color: rgb(74, 72, 72);
+  border-color: white;
+}
+.header .header_content .input_header .input_container input::placeholder {
+  text-align: end;
+  color: rgb(74, 72, 72);
+  border-color: white;
+}
+.header .header_content .register_header {
+  width: 5%;
+  z-index: 3;
+  text-align: center;
+}
+.header .header_content .register_header .register_button {
+  padding: 15px;
+  border-radius: 30px;
+}
+.header .header_content .register_header .register_button .fa-user {
+  font-size: 16px;
+}
+.header .header_content .register_header .register_button:hover {
+  background-color: rgba(229, 229, 229, 0.8980392157);
+}/*# sourceMappingURL=header.css.map */

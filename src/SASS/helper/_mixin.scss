@@ -1,0 +1,22 @@
+@mixin styleText($fw, $color, $fs: 16px) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $color;
+}
+@mixin styleIconSearch($fw, $color, $fs) {
+  font-weight: $fw;
+  color: $color;
+  font-size: $fs;
+}
+@mixin styleImg($wimg, $hing, $ob-fit) {
+  width: $wimg;
+  height: $hing;
+  object-fit: $ob-fit;
+}
+@mixin boxShadowCard($Sdow) {
+  box-shadow: $Sdow;
+}
+
+@mixin boxShadowButton($Sdow) {
+  box-shadow: $Sdow;
+}

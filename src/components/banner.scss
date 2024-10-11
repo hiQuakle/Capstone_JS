@@ -1,0 +1,43 @@
+@import "./../SASS/helper/variable";
+@import "./../SASS/helper/mixin";
+
+.banner {
+  margin-bottom: 100px;
+  .banner_content {
+    .img_banner {
+      margin-bottom: 40px;
+      img {
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+      }
+    }
+    .newFeature {
+      color: $text-white;
+      text-align: center;
+      .title1 {
+        @include styleText(600, $color-black, $fs-title-2);
+      }
+      .mainTitleBanner {
+        @include styleText(bold, $color-black, $fs-maintitle);
+      }
+      .title2 {
+        @include styleText(400, $color-black, $fs-title-1);
+        margin-bottom: 10px;
+      }
+      .link_shop_banner {
+        button {
+          padding: 10px 25px;
+          border-radius: 20px;
+          background-color: $color-black;
+          color: $text-white;
+          &:hover {
+            background-color: rgb(67, 66, 66);
+          }
+        }
+      }
+    }
+  }
+}

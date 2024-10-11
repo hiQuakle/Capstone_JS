@@ -1,0 +1,62 @@
+.shoes {
+  margin-bottom: 100px;
+}
+.shoes .shoes_title {
+  font-size: 25px;
+  font-weight: 500;
+  color: #111111;
+  margin-bottom: 20px;
+}
+.shoes .shoes_content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.shoes .shoes_content .card_items {
+  background-color: white;
+  box-shadow: 0 2px 4px #c8ccd4;
+  transition: all 0.3s;
+}
+.shoes .shoes_content .card_items:hover {
+  transform: scale(1.05);
+}
+.shoes .shoes_content .card_items .card_img {
+  padding: 30px;
+}
+.shoes .shoes_content .card_items .card_img img {
+  width: 560px;
+  height: 400px;
+  background-position-y: bottom;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 0 2px 4px #c8ccd4;
+}
+.shoes .shoes_content .card_items .card_infoShoes {
+  padding: 30px;
+}
+.shoes .shoes_content .card_items .card_infoShoes .nameShoes {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+.shoes .shoes_content .card_items .card_infoShoes .objShoes {
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(92, 86, 86);
+  margin-bottom: 5px;
+}
+.shoes .shoes_content .card_items .card_infoShoes .moneyShoes {
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+}
+.shoes .shoes_content .card_items .card_infoShoes .button_shoes {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(92, 86, 86);
+  box-shadow: 0 2px 4px #6b6b6d;
+}
+.shoes .shoes_content .card_items .card_infoShoes .button_shoes:hover {
+  color: #ffffff;
+  background-color: #111111;
+}/*# sourceMappingURL=shoes.css.map */

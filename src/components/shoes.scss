@@ -1,0 +1,56 @@
+@import "./../SASS/helper/variable";
+@import "./../SASS/helper/mixin";
+
+.shoes {
+  margin-bottom: 100px;
+  .shoes_title {
+    @include styleText(500, $color-black, $fs-title-shoes);
+    margin-bottom: 20px;
+  }
+  .shoes_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    .card_items {
+      background-color: white;
+      @include boxShadowCard(0 2px 4px #c8ccd4);
+      transition: all 0.3s;
+      &:hover {
+        transform: scale(1.05);
+      }
+      .card_img {
+        padding: 30px;
+
+        img {
+          width: 560px;
+          height: 400px;
+          background-position-y: bottom;
+          object-fit: cover;
+          @include boxShadowCard(0 2px 4px #c8ccd4);
+        }
+      }
+      .card_infoShoes {
+        padding: 30px;
+        .nameShoes {
+          @include styleText(500, $text-black, $fs-title-1);
+        }
+        .objShoes {
+          @include styleText(300, $color-objShoes, $fs-normal);
+          margin-bottom: 5px;
+        }
+        .moneyShoes {
+          @include styleText(550, $text-black, $fs-normal);
+        }
+        .button_shoes {
+          text-align: center;
+          @include styleText(500, $color-objShoes, $fs-normal);
+          @include boxShadowButton($box-shadow-ButtonShoes);
+          &:hover {
+            color: $text-white;
+            background-color: $color-hoverButton-shoes;
+          }
+        }
+      }
+    }
+  }
+}

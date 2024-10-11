@@ -1,0 +1,34 @@
+@import "./../SASS/helper/variable";
+@import "./../SASS/helper/mixin";
+
+.featured_content {
+  margin-bottom: 100px;
+  .title_featured {
+    @include styleText(500, $color-black, $fs-title-featured);
+    margin-bottom: 20px;
+  }
+  .card_content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    .card_items {
+      padding: 10px;
+      .card_overlay {
+        img {
+          width: 560px;
+          height: 400px;
+          background-position-y: bottom;
+          object-fit: cover;
+        }
+      }
+      .title_card {
+        margin-top: 30px;
+        h3 {
+          @include styleText(400, $text-black, $fs-title-1);
+        }
+        p {
+          @include styleText(300, $text-black, $fs-normal);
+        }
+      }
+    }
+  }
+}

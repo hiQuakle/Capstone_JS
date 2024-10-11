@@ -1,0 +1,414 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.my-container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.fs-1 {
+  font-size: 1 px;
+}
+
+.fs-2 {
+  font-size: 2 px;
+}
+
+.fs-3 {
+  font-size: 3 px;
+}
+
+.fs-4 {
+  font-size: 4 px;
+}
+
+.fs-5 {
+  font-size: 5 px;
+}
+
+.fs-6 {
+  font-size: 6 px;
+}
+
+.fs-7 {
+  font-size: 7 px;
+}
+
+.fs-8 {
+  font-size: 8 px;
+}
+
+.fs-9 {
+  font-size: 9 px;
+}
+
+.fs-10 {
+  font-size: 10 px;
+}
+
+.fs-11 {
+  font-size: 11 px;
+}
+
+.fs-12 {
+  font-size: 12 px;
+}
+
+.fs-13 {
+  font-size: 13 px;
+}
+
+.fs-14 {
+  font-size: 14 px;
+}
+
+.fs-15 {
+  font-size: 15 px;
+}
+
+.fs-16 {
+  font-size: 16 px;
+}
+
+.fs-17 {
+  font-size: 17 px;
+}
+
+.fs-18 {
+  font-size: 18 px;
+}
+
+.fs-19 {
+  font-size: 19 px;
+}
+
+.fs-20 {
+  font-size: 20 px;
+}
+
+.fs-21 {
+  font-size: 21 px;
+}
+
+.fs-22 {
+  font-size: 22 px;
+}
+
+.fs-23 {
+  font-size: 23 px;
+}
+
+.fs-24 {
+  font-size: 24 px;
+}
+
+.fs-25 {
+  font-size: 25 px;
+}
+
+.fs-26 {
+  font-size: 26 px;
+}
+
+.fs-27 {
+  font-size: 27 px;
+}
+
+.fs-28 {
+  font-size: 28 px;
+}
+
+.fs-29 {
+  font-size: 29 px;
+}
+
+.fs-30 {
+  font-size: 30 px;
+}
+
+.fs-31 {
+  font-size: 31 px;
+}
+
+.fs-32 {
+  font-size: 32 px;
+}
+
+.fs-33 {
+  font-size: 33 px;
+}
+
+.fs-34 {
+  font-size: 34 px;
+}
+
+.fs-35 {
+  font-size: 35 px;
+}
+
+.fs-36 {
+  font-size: 36 px;
+}
+
+.fs-37 {
+  font-size: 37 px;
+}
+
+.fs-38 {
+  font-size: 38 px;
+}
+
+.fs-39 {
+  font-size: 39 px;
+}
+
+.fs-40 {
+  font-size: 40 px;
+}
+
+.fs-41 {
+  font-size: 41 px;
+}
+
+.fs-42 {
+  font-size: 42 px;
+}
+
+.fs-43 {
+  font-size: 43 px;
+}
+
+.fs-44 {
+  font-size: 44 px;
+}
+
+.fs-45 {
+  font-size: 45 px;
+}
+
+.fs-46 {
+  font-size: 46 px;
+}
+
+.fs-47 {
+  font-size: 47 px;
+}
+
+.fs-48 {
+  font-size: 48 px;
+}
+
+.fs-49 {
+  font-size: 49 px;
+}
+
+.fs-50 {
+  font-size: 50 px;
+}
+
+.fs-51 {
+  font-size: 51 px;
+}
+
+.fs-52 {
+  font-size: 52 px;
+}
+
+.fs-53 {
+  font-size: 53 px;
+}
+
+.fs-54 {
+  font-size: 54 px;
+}
+
+.fs-55 {
+  font-size: 55 px;
+}
+
+.fs-56 {
+  font-size: 56 px;
+}
+
+.fs-57 {
+  font-size: 57 px;
+}
+
+.fs-58 {
+  font-size: 58 px;
+}
+
+.fs-59 {
+  font-size: 59 px;
+}
+
+.fs-60 {
+  font-size: 60 px;
+}
+
+.fs-61 {
+  font-size: 61 px;
+}
+
+.fs-62 {
+  font-size: 62 px;
+}
+
+.fs-63 {
+  font-size: 63 px;
+}
+
+.fs-64 {
+  font-size: 64 px;
+}
+
+.fs-65 {
+  font-size: 65 px;
+}
+
+.fs-66 {
+  font-size: 66 px;
+}
+
+.fs-67 {
+  font-size: 67 px;
+}
+
+.fs-68 {
+  font-size: 68 px;
+}
+
+.fs-69 {
+  font-size: 69 px;
+}
+
+.fs-70 {
+  font-size: 70 px;
+}
+
+.fs-71 {
+  font-size: 71 px;
+}
+
+.fs-72 {
+  font-size: 72 px;
+}
+
+.fs-73 {
+  font-size: 73 px;
+}
+
+.fs-74 {
+  font-size: 74 px;
+}
+
+.fs-75 {
+  font-size: 75 px;
+}
+
+.fs-76 {
+  font-size: 76 px;
+}
+
+.fs-77 {
+  font-size: 77 px;
+}
+
+.fs-78 {
+  font-size: 78 px;
+}
+
+.fs-79 {
+  font-size: 79 px;
+}
+
+.fs-80 {
+  font-size: 80 px;
+}
+
+.fs-81 {
+  font-size: 81 px;
+}
+
+.fs-82 {
+  font-size: 82 px;
+}
+
+.fs-83 {
+  font-size: 83 px;
+}
+
+.fs-84 {
+  font-size: 84 px;
+}
+
+.fs-85 {
+  font-size: 85 px;
+}
+
+.fs-86 {
+  font-size: 86 px;
+}
+
+.fs-87 {
+  font-size: 87 px;
+}
+
+.fs-88 {
+  font-size: 88 px;
+}
+
+.fs-89 {
+  font-size: 89 px;
+}
+
+.fs-90 {
+  font-size: 90 px;
+}
+
+.fs-91 {
+  font-size: 91 px;
+}
+
+.fs-92 {
+  font-size: 92 px;
+}
+
+.fs-93 {
+  font-size: 93 px;
+}
+
+.fs-94 {
+  font-size: 94 px;
+}
+
+.fs-95 {
+  font-size: 95 px;
+}
+
+.fs-96 {
+  font-size: 96 px;
+}
+
+.fs-97 {
+  font-size: 97 px;
+}
+
+.fs-98 {
+  font-size: 98 px;
+}
+
+.fs-99 {
+  font-size: 99 px;
+}
+
+.fs-100 {
+  font-size: 100 px;
+}/*# sourceMappingURL=style.css.map */
